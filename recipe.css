@@ -5,11 +5,13 @@ body {
   background-color: whitesmoke;
   font-family: "Times New Roman", Times, serif;
   margin: 0px 60px 50px;
-  text-align: justify;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
-
+.content-container {
+  display: inline-block; 
+  max-width: 1000px; 
+}
 header {
   text-align: center;
   margin-bottom: 20px;
@@ -28,6 +30,12 @@ nav ul li {
   max-width: 100%;
   /* margin-bottom: 20px; */
   /* border-radius: 8px; */
+}
+section {
+  display: inline-block; 
+  vertical-align: top; /
+  max-width: 600px; /
+  margin-left: 30px; /
 }
 
 h2 {
